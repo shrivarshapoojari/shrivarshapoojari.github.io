@@ -1,4 +1,4 @@
- 
+/*  
 body {
     font-family: "Poppins", sans-serif;
     background-color: #111;
@@ -93,4 +93,213 @@ body {
     .container {
       padding: 20px;
     }
+  } */
+
+
+
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
   }
+  
+  .container {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile {
+    margin-bottom: 25px;
+  }
+  
+  .photo {
+    margin: 0 auto;
+    border: 4px solid #03bef2;
+    padding: 4px;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: url("./image.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .profile_name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  
+  .profile_bio {
+    font-size: 16px;
+    font-weight: 300;
+    color: #b0c4de;
+    margin-top: 5px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .custom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: linear-gradient(135deg, #26d0ee, #03bef2);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-btn i {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  .custom-btn:hover {
+    background: linear-gradient(135deg, #004266, #0364c5);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-btn:active {
+    transform: translateY(-1px);
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  }
+  
+
+
+
+
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .profile {
+    margin-bottom: 25px;
+  }
+  
+  .photo {
+    margin: 0 auto;
+    border: 3px solid #495057;
+    padding: 5px;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: url("./image.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .profile_name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #343a40;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .custom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: linear-gradient(135deg, #4a90e2, #007bff);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-btn i {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  .custom-btn:hover {
+    background: linear-gradient(135deg, #007bff, #004085);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-btn:active {
+    transform: translateY(0);
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  }
+  
